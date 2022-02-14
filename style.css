@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+nav{
+    background: rgb(224, 83, 31);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+nav a{
+    font-weight: 800; 
+    display: block;
+    background-color:rgba(165, 42, 42, 0.747);
+    padding: 10px;
+    text-decoration: none;
+    font-style: normal;
+    
+   
+}
+
+nav a:active{
+    background: burlywood;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.form input ,.form button{
+font-size: large;
+padding: 5px;
+margin: 10px;
+}
+
+.error{
+    color: red;
+    border: 2px solid red;
+}
+
+#error{
+    display: none;
+}
+
+header{
+    background: coral;
+  display: flex;
+    align-items: center;
+}
+
+.LG{
+    
+    padding: 3px;
+    
+}
+.LGT{ 
+    font-size: 120px;
+    font-weight: 800;
+    font-style: normal;
+   align-items: center;
+   text-decoration: none;
+}
+.end span
+{
+    font-size: 120px;
+    font-weight: 800; 
+    align-items: center;
+    display: block;
+}
+.content img{
+    padding-top: 140px;
+    padding-left: 40px;
+}
+
+.content{
+    display: inline;
+}
+.body{
+    display:flex;
+    font-size: 100px;
+   
+}
+
+.text{
+    padding-left: 15px;
+    padding-top: 140px;
+    font-family: 'Courier New', Courier, monospace;
+}
